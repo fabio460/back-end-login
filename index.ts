@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { getUsuario } from "./controllers/usuarioController.js";
+import { getUsuario } from "./controllers/usuarioController";
 
 const app = express()
 app.use(cors())
